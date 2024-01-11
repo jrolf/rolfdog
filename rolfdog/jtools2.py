@@ -3,7 +3,7 @@ import numpy as np
 
 class Adder:
 	def __init__(self):
-		self.x = np.array() 
+		self.x = np.array([])  
 	def add_things(self,things1,things2):
 		a = np.array(things1)
 		b = np.array(things2)

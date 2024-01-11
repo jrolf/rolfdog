@@ -3,7 +3,7 @@ import numpy as np
 
 class Sorter:
 	def __init__(self):
-		self.x = np.array() 
+		self.x = np.array([])  
 	def sort_things(self,things):
 		idx = np.argsort(things) 
 		return np.array(things)[idx] 
